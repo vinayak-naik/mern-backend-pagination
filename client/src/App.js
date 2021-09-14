@@ -66,6 +66,9 @@ const App = ({ match }) => {
           {loading ? (
             <div className="loaderContainer">
               <h3 style={{margin:'20px'}}>Loading</h3>
+              <div className="progress-box">
+              <CircularProgress color="secondary" />
+              </div>
             </div>
           ) : error ? (
             <div className="errorContainer">
