@@ -4,8 +4,6 @@ const connectDB = require("./config/db");
 const postRoutes = require("./routes/postRoutes");
 const cors=require('cors')
 const path= require('path')
-const fileURLToPath= require('url').fileURLToPath
-const dirname =require('path').dirname
 
 connectDB();
 

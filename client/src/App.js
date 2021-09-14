@@ -50,9 +50,8 @@ const App = ({ match }) => {
       <Grid container direction="column" spacing={2}>
         <Grid item xs={12}>
           <h1 style={matches ? { fontSize: 24 } : { fontSize: 34 }}>
-            Advanced MERN Pagination
+            Mern Backend Pagination
           </h1>
-          <p>Pagination in Backend</p>
         </Grid>
         <Grid item item xs={12}>
           <Pagination
@@ -74,7 +73,7 @@ const App = ({ match }) => {
             </div>
           ) : (
             <Grid container spacing={2}>
-              {posts.map((item, k) => (
+              {posts && posts.map((item, k) => (
                 <Grid item xs={12} sm={6} md={4} lg={3}>
                   <Paper elevation={2} style={{ height: "100%" }}>
                     <Box style={{ padding: "10px" }}>
