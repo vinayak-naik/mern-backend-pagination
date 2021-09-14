@@ -25,7 +25,7 @@ const App = ({ match }) => {
       setLoading(true);
       try {
         const res = await fetch(
-          `http://localhost:8000/api/v1/posts?page=${page}`
+          `https://mern-backend-pagination.herokuapp.com/api/v1/posts?page=${page}`
         );
 
         const { data, pages: totalPages } = await res.json();
