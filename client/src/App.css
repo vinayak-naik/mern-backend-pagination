@@ -1,0 +1,31 @@
+.app {
+  min-height: 150vh;
+  background-color: rgb(196, 207, 221);
+  padding: 20px;
+}
+.app h1 {
+  padding-bottom: 5px;
+}
+.app h4 {
+  background-color: rgb(192, 136, 16);
+  padding: 5px 10px;
+  border-radius: 8px;
+  color: white;
+}
+.app p {
+  padding: 5px 20px 5px 5px;
+  color: rgb(25, 35, 124);
+}
+.paginationContainer{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 20px;
+}
+.errorContainer, .loaderContainer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  flex-direction: column;
+}
